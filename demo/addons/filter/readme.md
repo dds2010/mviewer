@@ -110,9 +110,11 @@ Ces propriétés supplémentaires ne sont pas obligatoires mais peuvent permettr
 Permet d'indiquer le séparateur si plusieurs valeurs sont contenues dans un champ pour une entité.
 
 
-**4. Ajouter des boutons pour télécharger les données filtrées (uniquement pour les source WFS) **
+**4. Ajouter des boutons pour télécharger les données filtrées (uniquement pour les source WFS)**
 
 Si vous rajoutez la propriété *downloadFormats* avec une liste de formats parmi "CSV","Shapefiles" et "Geojson", des boutons de téléchargements des données seront ajoutés et permettront de télécharger les données filtrées. Ceci n'est possible que pour un layer WFS et créé un filtre CQL pour télécharger les données via une requête WFS. 
+
+![capture filterLayer](./img/filter_download.PNG)
 
 ```
 "layers": [{
