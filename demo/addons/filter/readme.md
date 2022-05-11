@@ -114,7 +114,7 @@ Permet d'indiquer le séparateur si plusieurs valeurs sont contenues dans un cha
 
 Si vous rajoutez la propriété *downloadFormats* avec une liste de formats parmi "CSV","Shapefiles" et "Geojson", des boutons de téléchargements des données seront ajoutés et permettront de télécharger les données filtrées. Ceci n'est possible que pour un layer WFS et créé un filtre CQL pour télécharger les données via une requête WFS. 
 
-![capture filterLayer](./img/filter_download.png =250x)
+![capture filterLayer](./img/filter_download.png)
 
 ```
 "layers": [{
