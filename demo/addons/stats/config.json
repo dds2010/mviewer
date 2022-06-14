@@ -16,39 +16,39 @@
           "colorButton": "#2e5367"
         },
         "stats": [
-        {
-          "type": "stat",
-          "layerId": "structures",
-          "field": "form_jur",
-          "template":"<span class='structcss'>Structures :<br> {x} Objets</span>",
-          "operator": "COUNT",
-          "__operator": "SUM,MAX,MEAN,COUNT"
-        },
-        {
-          "type": "stat",
-          "layerId": "structures",
-          "field": "cp",
-          "template":"Moyenne : {x} ",
-          "operator": "MEAN",
-          "__operator": "SUM,MAX,MEAN,COUNT"
-        },
-        {
-          "type": "stat",
-          "layerId": "structures",
-          "field": "cp",
-          "template":"MIN : {x} ",
-          "operator": "MIN",
-          "__operator": "SUM,MAX,MEAN,COUNT"
-        },
-        {
-          "type": "stat",
-          "layerId": "structures",
-          "field": "cp",
-          "template":"MAX : {x} ",
-          "operator": "MAX",
-          "__operator": "SUM,MAX,MEAN,COUNT"
-        }
-      ]
+          {
+            "type": "stat",
+            "layerId": "structures",
+            "field": "",
+            "template":"<span class='structcss'>Structures :<br> {x} Objets</span>",
+            "operator": "COUNT",
+            "__operator": "SUM,MAX,MEAN,COUNT"
+          },
+          {
+            "type": "stat",
+            "layerId": "structures",
+            "field": "cp",
+            "template":"Moyenne : {x} ",
+            "operator": "MEAN",
+            "__operator": "SUM,MAX,MEAN,COUNT"
+          },
+          {
+            "type": "stat",
+            "layerId": "structures",
+            "field": "cp",
+            "template":"MIN : {x} ",
+            "operator": "MIN",
+            "__operator": "SUM,MAX,MEAN,COUNT"
+          },
+          {
+            "type": "stat",
+            "layerId": "structures",
+            "field": "cp",
+            "template":"MAX : {x} ",
+            "operator": "MAX",
+            "__operator": "SUM,MAX,MEAN,COUNT"
+          }
+        ]
       }
     }
   }
