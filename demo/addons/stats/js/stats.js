@@ -50,7 +50,7 @@ var stats = (function () {
       <button id="statsbtn" class="btn btn-default btn-raised"
         onclick="stats.toggle();"  title="Afficher les stats" i18n="tbar.right.stat"
         tabindex="116" accesskey="f">
-        <span class="glyphicon glyphicon-filter" aria-hidden="true">
+        <span class="glyphicon glyphicon-stats" aria-hidden="true">
         </span>
       </button>`;
       $("#toolstoolbar").prepend(button);
@@ -180,7 +180,7 @@ var stats = (function () {
   var _setStyle = function () {
     if (!mviewer.customComponents.stats.config.options.style) return;
     var style = mviewer.customComponents.stats.config.options.style;
-    $('.textlabel').css('color', style.text || 'black');
+    $('.titleHeader').css('color', style.text || 'black');
     $('#statsPanel').css('background-color', style.background || 'white');
     $('#statsPanel').css('border', style.border || '0px transparent solid');
   }
